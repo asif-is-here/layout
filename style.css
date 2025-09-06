@@ -1,0 +1,50 @@
+            nav{
+                display: flex;
+                list-style: none;
+                background-color: rgb(204, 203, 201);
+                border: 5px solid rgb(203, 244, 244);
+                
+            }
+            li{
+                margin: 5px ;
+            }
+            .last{
+                margin-left: auto;
+            }
+            
+            .cover{
+                height: 300px;
+                width: 400px;
+                margin:auto;
+                border: 0px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            body{
+                margin: 0px;
+
+            }
+            .container{
+                
+                border: 1px solid rgb(58, 176, 255);;
+                background-color: rgb(58, 176, 255);
+                display: grid;
+                grid-template-columns: repeat(auto-fill, minmax(120px,1fr));
+            }
+            img{
+                height: 100px;
+                width: 100px;
+                margin: 10px ;
+                border-radius: 3px;
+                background-color: rgb(45, 45, 45);
+                border: 10px solid rgb(45, 45, 45);
+                
+            }
+footer{
+    text-align: center;
+    align-content: center;
+    background-color: rgb(177, 91, 201);
+    color: azure;
+    height: 40px;
+}
