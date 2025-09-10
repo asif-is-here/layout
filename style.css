@@ -57,6 +57,7 @@
                 background-color: rgb(84, 186, 255);
                 border-radius: 4px;
                 display: grid;
+                /* grid-gap: 20px; */
                 border: 1px solid rgb(161, 160, 160);
                 /* grid-gap: 20px; */
                 grid-template-columns: repeat(auto-fill, minmax(350px,1fr));
